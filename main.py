@@ -7,14 +7,7 @@ path_tests = './Example1/tests.csv'
 path_marks = './Example1/marks.csv'
 path_students = './Example1/students.csv'
 path_courses = './Example1/courses.csv'
-path_output = './Example1/output2.json'
-
-
-# path_tests = sys.argv[3]
-# path_marks = sys.argv[4]
-# path_students = sys.argv[2]
-# path_courses = sys.argv[1]
-# path_output = sys.argv[5]
+path_output = './Example1/output1.json'
 
 f_tests = pd.read_csv(path_tests)
 f_marks = pd.read_csv(path_marks)
